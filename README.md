@@ -32,7 +32,7 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 ## Technologies Used
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
 <a href="https://tailwindcss.com/" target="_blank"><img src="https://yt3.googleusercontent.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s900-c-k-c0x00ffffff-no-rj" alt="tailwind" width="40" height="40"/> </a> 
-<a href="https://www.w3.org/js/" target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Ficons%2Fjavascript&psig=AOvVaw27U-oWasgfoBJxlP4aIYRa&ust=1703054133859000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCMD05JbxmoMDFQAAAAAdAAAAABAI" alt="javascript" width="40" height="40"/> </a> 
+<a href="https://www.w3.org/js/" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png" alt="javascript" width="40" height="40"/> </a> 
 
 ## Features
 
