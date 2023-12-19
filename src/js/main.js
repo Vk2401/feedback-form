@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
         formDataObject[key] = value;
         if(!value){
             showNotification('All field are required',true)
+            var reqField = document.getElementsByName(key)[0]
+            console.log(reqField)
+            reqField.style.border = '1px solid red'
             sendForm = false;
         }
       });
@@ -50,6 +53,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // handle events
+    var inputFields = form.querySelectorAll('input, textarea, select');
+    inputFields.forEach(function (field) {
+        field.addEventListener('input', function () {
+            if (this.value) {
+                this.style.border = 'none';
+            }
+        });
+    });
+
     notifyMessCloseEl.addEventListener('click',()=>{
         notifyEl.style.display = 'none';
     })
