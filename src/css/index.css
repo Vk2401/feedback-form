@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.custom-select::after {
+    content: '\25BC'; 
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    pointer-events: none;
+}
+.form-bg {
+    position: relative;
+}
+
+.form-bg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/images/green-leaves-background-illustration-lg.png') center/cover no-repeat;
+    opacity: 0.15; 
+}
+
+.animated-element-y {
+    animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce {
+    animation: bounce 1s ease;
+}
