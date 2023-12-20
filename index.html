@@ -52,31 +52,31 @@
             class="max-w-screen-xl mt-24 grid gap-8 grid-cols-1 md:grid-cols-2   text-gray-900 rounded-lg ">
             <div class="flex flex-col justify-between">
               <div>
-                <div>
+                <div class="relative">
                   <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
                   <input
-                    class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    class="w-full bg-gray-300 mb-4 text-gray-900 mt-2 p-3 border-[1px] rounded-lg focus:outline-none focus:shadow-outline"
                     type="text" placeholder="" name="uname">
                 </div>
-                <div class="mt-8">
+                <div class="mt-8 relative">
                   <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
                   <input
-                    class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    class="w-full bg-gray-300 mb-4 text-gray-900 mt-2 p-3 border-[1px] rounded-lg focus:outline-none focus:shadow-outline"
                     type="text" name="uemail">
                 </div>
               </div>
 
             </div>
             <div class="">
-              <div>
+              <div class="relative">
                 <span class="uppercase text-sm text-gray-600 font-bold">Phone</span>
                 <input
-                  class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:appearance-none"
+                  class="w-full bg-gray-300 text-gray-900 mt-2 p-3 mb-4 rounded-lg border-[1px] focus:outline-none focus:shadow-outline focus:appearance-none"
                   type="number" placeholder="" name="uphone">
               </div>
-              <div class="mt-8 custom-select">
+              <div class="mt-8 custom-select relative">
                 <label for="designation" class="uppercase text-sm text-gray-600 font-bold">Designation</label>
-                <select id="designation" name="udesg" class=" w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg appearance-none focus:outline-none focus:shadow-outline">
+                <select id="designation" name="udesg" class=" w-full bg-gray-300 mb-4 text-gray-900 mt-2 p-3 border-[1px] rounded-lg appearance-none focus:outline-none focus:shadow-outline">
           
                     <option value="">SELECT</option>
                     <option value="Student">Student</option>
@@ -88,12 +88,12 @@
             </div>
             </div>
           </div>
-          <div class="mt-8">
+          <div class="mt-8 relative">
             <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
             <textarea
-             name="umessage" class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+             name="umessage" class="w-full h-32 bg-gray-300 border-[1px] text-gray-900 mt-2 mb-[8px] p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
           </div>
-          <div class="mt-8">
+          <div class="mt-8 ">
             <button
               class="uppercase text-sm font-bold tracking-wide bg-[#9cda8a] text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
               Send Message
@@ -106,7 +106,7 @@
   </main>
 
   <!-- mail success or fail notification -->
-  <div id="enotify" class="bg-[#9cda8a] px-4 py-2 rounded font-medium top-2 left-1/2 -translate-x-1/2 fixed shadow-xl flex justify-center items-center gap-5" style="display: none;">
+  <div id="enotify" class="z-50 bg-[#9cda8a] px-4 py-2 rounded font-medium top-2 left-1/2 -translate-x-1/2 fixed shadow-xl flex justify-center items-center gap-5" style="display: none;">
     <span id="en-mesage"></span> <span class="text-red-700 cursor-pointer hover:text-red-500 " id="notify-close-icon">x</span>
   </div>
 
